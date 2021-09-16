@@ -1,0 +1,26 @@
+<?php
+//Cookies y Session
+/*
+  El protocolo HTTP es stateless, es decir, olvida sus estados.
+  Cookies -> archivo de texto plano creado x el navegador del usuario
+    en la PC del usuario, dicho cookie es leible por la página que
+    lo generó.
+
+  Solución al miedo de las cookies, sesiones.
+
+  Las sesiones almacenan la información del lado del servidor, eso si
+    las sesiones siguen usando cookies.
+  Una sesión es un conjunto de información almacenada en el servidor
+  con un identificador único de usuario. Dicho identificador se envía
+  automáticamente al usuario por medio de las cookies.
+
+  Dentro de la sesión se puede almacenar el valor de variables para
+  así disponer de ellas en cualquiera de las páginas donde se inicie
+  una sesión. Ventaja extra -> cambiás el valor de variables, cambia
+  dichos valores también en la sesión.
+
+  Una cookie almacena máximo 4093 caracteres. Solo 20 cookies por dominio.
+  Un navegador almacena hasta 300 cookies en total.
+*/
+
+ ?>
